@@ -10,6 +10,42 @@ h1 {
   animation: fly 5s linear infinite;
 }
 
+.vitesse-effect {
+  width: 200px;
+  height: 3px;
+  background: linear-gradient(90deg, transparent 0%, rgb(126, 126, 126) 100%);
+  /* border: 1px solid rgb(151, 151, 151); */
+  margin: 3px;
+}
+
+.vitesse1 {
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  animation: fly 5s linear infinite;
+}
+
+.vitesse2 {
+  position: absolute;
+  top: 80px;
+  left: -50px;
+  animation: fly 5s linear infinite;
+}
+
+.vitesse3 {
+  position: absolute;
+  top: 240px;
+  left: -50px;
+  animation: fly 5s linear infinite;
+}
+
+.vitesse4 {
+  position: absolute;
+  top: 260px;
+  left: 100pxpx;
+  animation: fly 5s linear infinite;
+}
+
 img {
   position: absolute;
   animation: fly 5s linear infinite;
