@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(195, 195, 195);
+}
+
+h1 {
+  position: absolute;
+  top: 140px;
+  left: 100px;
+  z-index: 1;
+  animation: fly 5s linear infinite;
+}
+
+img {
+  position: absolute;
+  animation: fly 5s linear infinite;
+}
+
+@keyframes fly {
+  0% {
+    transform: translateX(-100vw);
+  }
+  100% {
+    transform: translateX(100vw);
+  }
+}
