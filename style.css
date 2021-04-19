@@ -1,13 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: rgb(195, 195, 195);
+  height: 100vh;
+  overflow: hidden;
 }
 
 h1 {
   position: absolute;
-  top: 140px;
+  top: 155px;
   left: 100px;
   z-index: 1;
-  animation: fly 5s linear infinite;
 }
 
 .vitesse-effect {
@@ -22,33 +29,42 @@ h1 {
   position: absolute;
   top: 100px;
   left: 20px;
-  animation: fly 5s linear infinite;
 }
 
 .vitesse2 {
   position: absolute;
   top: 80px;
   left: -50px;
-  animation: fly 5s linear infinite;
 }
 
 .vitesse3 {
   position: absolute;
   top: 240px;
   left: -50px;
-  animation: fly 5s linear infinite;
 }
 
 .vitesse4 {
   position: absolute;
   top: 260px;
-  left: 100pxpx;
-  animation: fly 5s linear infinite;
+  left: 100px;
 }
 
 img {
   position: absolute;
-  animation: fly 5s linear infinite;
+}
+
+.animate {
+  display: none;
+}
+
+button {
+  padding: 30px;
+  font-size: 30px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @keyframes fly {
